@@ -1,0 +1,8 @@
+version: '3'
+services:
+  auth:
+    image: signmaster-news
+    build: .
+    container_name: signmaster-news
+    ports:
+      - '3000:3000'
